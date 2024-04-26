@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App w-full px-28  min-h-screen relative">
      <Navbar/>
-     <Path/>
+  
      <Body/>
      <Form/>
     </div>

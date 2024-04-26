@@ -10,7 +10,7 @@ function Accordian({heading,subText}) {
 
   return (
     <>
-<div onClick={handleOpen}   className=' h-[58px] w-[848px] sm:w-full  px-[24px] borderGrad  flex items-center  ' >
+<div onClick={handleOpen}   className=' h-[58px] w-[848px] sm:w-full  px-[24px] borderGrad  flex items-center  cursor-pointer' >
     <div className='flex justify-between items-center w-full'>
     <p className='text-[1rem] font-[600] font-inter'>{heading}</p>
     <img
@@ -19,15 +19,7 @@ function Accordian({heading,subText}) {
     </div>
         
     </div>
-    {/* {
-        open && (
-            <>
-            <div className='w-full h-fit p-[20px]'>
-                    content is here 
-            </div>
-            </>
-        )
-    } */}
+    
     </>
   )
 }
