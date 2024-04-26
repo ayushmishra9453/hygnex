@@ -1,0 +1,19 @@
+.gradient-border {
+    border-width: 2px; /* Adjust the border width as needed */
+    border-style: solid;
+    /* border-radius: 12px; Adjust the border radius as needed */
+    border-image: linear-gradient(to right, #217EEC, #082299) 1;
+
+    border-color: linear-gradient(to right, #217EEC, #082299) 1;
+
+  }
+
+  .borderGrad{
+    box-sizing: content-box;
+    border: 2px solid ; /* Set border color to transparent */
+    border-color:  #217EEC; /* Apply gradient as border image */
+    border-radius: 12px !important;
+    background-color: #fff; /* Or any desired color */
+
+  }
+
